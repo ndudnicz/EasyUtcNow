@@ -1,0 +1,3 @@
+*.dwarf
+main.cr
+main
