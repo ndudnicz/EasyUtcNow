@@ -13,7 +13,7 @@ dependencies:
 
 ### Example :
 ```ruby
-require "Timestamp"
+require "crtimestamp"
 
 puts Crtimestamp.now_utc_to_unix
 ```
