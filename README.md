@@ -6,15 +6,15 @@ A timestamp module
 ### Installation :
 Add this to your application's `shard.yml`:
 ```yaml
-crystaltimestamp:
-  github: ndudnicz/crystaltimestamp
+crtimestamp:
+  github: ndudnicz/crtimestamp
 ```
 
 ### Example :
 ```ruby
 require "Timestamp"
 
-puts Timestamp.now_utc_to_unix
+puts Crtimestamp.now_utc_to_unix
 ```
 
 ### API :
