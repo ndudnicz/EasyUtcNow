@@ -6,8 +6,9 @@ A timestamp module
 ### Installation :
 Add this to your application's `shard.yml`:
 ```yaml
-crtimestamp:
-  github: ndudnicz/crtimestamp
+dependencies:
+  crtimestamp:
+    github: ndudnicz/crtimestamp
 ```
 
 ### Example :
