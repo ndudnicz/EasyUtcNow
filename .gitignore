@@ -2,3 +2,4 @@
 main.cr
 main
 shard.lock
+lib/*
