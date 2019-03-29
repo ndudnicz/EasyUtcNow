@@ -19,7 +19,7 @@ puts Crtimestamp.now_utc_to_unix
 ```
 
 ### API :
-#### Static Methods Summary
+#### Static Methods Summary :
 
 ```ruby
 .now_utc_to_unix :
