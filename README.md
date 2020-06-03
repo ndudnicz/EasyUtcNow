@@ -1,6 +1,6 @@
 A timestamp module
 
-![](https://img.shields.io/badge/version-0.0.1-blue.svg?style=for-the-badge)
+![](https://img.shields.io/badge/version-0.1.0-blue.svg?style=for-the-badge)
 ![](https://img.shields.io/badge/crystal--lang-0.34.0-black.svg?style=for-the-badge)
 
 ### Installation :
