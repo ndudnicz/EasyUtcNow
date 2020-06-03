@@ -1,7 +1,7 @@
 A timestamp module
 
-![](https://img.shields.io/badge/version-0.0.1-blue.svg)
-![](https://img.shields.io/badge/crystal--lang-0.28.0-black.svg)
+![](https://img.shields.io/badge/version-0.0.1-blue.svg?style=for-the-badge)
+![](https://img.shields.io/badge/crystal--lang-0.34.0-black.svg?style=for-the-badge)
 
 ### Installation :
 Add this to your application's `shard.yml`:
