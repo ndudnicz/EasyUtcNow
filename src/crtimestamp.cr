@@ -31,7 +31,7 @@ struct Crtimestamp
   # ```
   # Time.now_utc_to_unix_ms # => 1452567845876
   # ```
-  def self.now_utc_to_unix_ms : Int64
+  def self.now_utc_to_unix_ms_f : Float64
     seconds, nanoseconds = Crystal::System::Time.compute_utc_seconds_and_nanoseconds
     (seconds * 1_000 + (nanoseconds / NANOSECONDS_PER_MILLISECOND)) - EPOCH_MSECONDS_TIMESTAMP
   end

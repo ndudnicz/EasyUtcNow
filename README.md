@@ -28,8 +28,8 @@ Int64
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the current utc epoch timestamp in second
 
 ```ruby
-.now_utc_to_unix_ms :
-Int64
+.now_utc_to_unix_ms_f :
+Float64
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the current utc epoch timestamp in msecond
 
@@ -42,17 +42,17 @@ Float64
 ### Benchmark :
 ```shell
 $> crystal -v
-Crystal 0.27.2 [60760a546] (2019-02-05)
+Crystal 0.34.0 [4401e90f0] (2020-04-06)
 
-LLVM: 4.0.0
+LLVM: 8.0.0
 Default target: x86_64-unknown-linux-gnu
 $> cd bench
 $> crystal build --release bench.cr
 $> ./bench
-          Time.utc_now.to_unix  19.49M ( 51.31ns) (± 1.25%)  0 B/op   1.13× slower
-   Crtimestamp.now_utc_to_unix  21.98M ( 45.49ns) (± 0.72%)  0 B/op        fastest
-       Time.utc_now.to_unix_ms  19.59M ( 51.03ns) (± 0.93%)  0 B/op   1.12× slower
-Crtimestamp.now_utc_to_unix_ms  21.86M ( 45.74ns) (± 0.98%)  0 B/op        fastest
-        Time.utc_now.to_unix_f  19.47M ( 51.36ns) (± 1.57%)  0 B/op   1.12× slower
- Crtimestamp.now_utc_to_unix_f  21.88M ( 45.71ns) (± 0.95%)  0 B/op        fastest
+              Time.utc.to_unix  31.17M ( 32.08ns) (± 0.79%)  0.0B/op   1.20× slower
+   Crtimestamp.now_utc_to_unix  37.30M ( 26.81ns) (± 0.15%)  0.0B/op        fastest
+           Time.utc.to_unix_ms  27.54M ( 36.31ns) (± 0.53%)  0.0B/op   1.36× slower
+Crtimestamp.now_utc_to_unix_ms  37.36M ( 26.77ns) (± 0.09%)  0.0B/op        fastest
+            Time.utc.to_unix_f  29.93M ( 33.41ns) (± 4.18%)  0.0B/op   1.25× slower
+ Crtimestamp.now_utc_to_unix_f  37.33M ( 26.79ns) (± 2.33%)  0.0B/op        fastest
 ```

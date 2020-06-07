@@ -1,12 +1,12 @@
 name: crtimestamp
-version: 0.1.0
+version: 0.2.0
 
-crystal: 0.27.2
+crystal: 0.34.0
 
 authors:
-  - Nicolas Dudniczenko <ndudnicz@protonmail.com>
+  - ndudnicz <ndudnicz@protonmail.com>
 
 description: |
-  Faster way to get a timestamp than calling standard Time
+  Faster way to get a timestamp than calling standard Time lib
 
 license: GPL-3.0
