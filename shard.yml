@@ -9,4 +9,4 @@ authors:
 description: |
   Faster way to get a timestamp than calling standard Time lib
 
-license: GPL-3.0
+license: MIT
