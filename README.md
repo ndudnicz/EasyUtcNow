@@ -49,10 +49,10 @@ Default target: x86_64-unknown-linux-gnu
 $> cd bench
 $> crystal build --release bench.cr
 $> ./bench
-              Time.utc.to_unix  31.17M ( 32.08ns) (± 0.79%)  0.0B/op   1.20× slower
-   Crtimestamp.now_utc_to_unix  37.30M ( 26.81ns) (± 0.15%)  0.0B/op        fastest
-           Time.utc.to_unix_ms  27.54M ( 36.31ns) (± 0.53%)  0.0B/op   1.36× slower
-Crtimestamp.now_utc_to_unix_ms  37.36M ( 26.77ns) (± 0.09%)  0.0B/op        fastest
-            Time.utc.to_unix_f  29.93M ( 33.41ns) (± 4.18%)  0.0B/op   1.25× slower
- Crtimestamp.now_utc_to_unix_f  37.33M ( 26.79ns) (± 2.33%)  0.0B/op        fastest
+             Time.utc.to_unix  31.26M ( 31.99ns) (± 0.60%)  0.0B/op   1.20× slower
+  Crtimestamp.now_utc_to_unix  37.40M ( 26.74ns) (± 0.09%)  0.0B/op        fastest
+          Time.utc.to_unix_ms  27.65M ( 36.17ns) (± 0.71%)  0.0B/op   1.35× slower
+Crimestamp.now_utc_to_unix_ms  37.40M ( 26.73ns) (± 0.08%)  0.0B/op        fastest
+           Time.utc.to_unix_f  31.31M ( 31.94ns) (± 0.73%)  0.0B/op   1.21× slower
+Crtimestamp.now_utc_to_unix_f  37.75M ( 26.49ns) (± 0.48%)  0.0B/op        fastest
 ```
