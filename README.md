@@ -56,3 +56,4 @@ Crimestamp.now_utc_to_unix_ms  37.40M ( 26.73ns) (± 0.08%)  0.0B/op        fast
            Time.utc.to_unix_f  31.31M ( 31.94ns) (± 0.73%)  0.0B/op   1.21× slower
 Crtimestamp.now_utc_to_unix_f  37.75M ( 26.49ns) (± 0.48%)  0.0B/op        fastest
 ```
+
