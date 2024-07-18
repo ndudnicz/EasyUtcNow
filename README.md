@@ -1,21 +1,21 @@
 A timestamp module
 
-![](https://img.shields.io/badge/version-0.2.0-blue.svg?style=for-the-badge)
-![](https://img.shields.io/badge/crystal--lang-0.35.0-black.svg?style=for-the-badge)
+![](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)
+![](https://img.shields.io/badge/crystal--lang-1.13.1-black.svg?style=for-the-badge)
 
 ### Installation :
 Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
-  crtimestamp:
-    github: ndudnicz/crtimestamp
+  EasyUtcNow:
+    github: ndudnicz/EasyUtcNow
 ```
 
 ### Example :
 ```ruby
-require "crtimestamp"
+require "EasyUtcNow"
 
-puts Crtimestamp.now_utc_to_unix
+puts EasyUtcNow.now_utc_to_unix
 ```
 
 ### API :
