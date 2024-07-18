@@ -7,6 +7,6 @@ authors:
   - ndudnicz <ndudnicz@protonmail.com>
 
 description: |
-  Faster way to get an utc timestamp than calling standard Time lib
+  Faster and easier way to get an utc timestamp than calling standard Time lib
 
 license: MIT

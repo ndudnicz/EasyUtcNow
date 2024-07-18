@@ -1,4 +1,5 @@
 A timestamp module
+Faster and easier way to get an utc timestamp than calling standard Time lib
 
 ![](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)
 ![](https://img.shields.io/badge/crystal--lang-1.13.1-black.svg?style=for-the-badge)
