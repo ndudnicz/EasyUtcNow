@@ -5,7 +5,7 @@ require "crystal/system/time"
 # instance of standard Time struct
 #
 
-struct Crtimestamp
+struct EasyUtcNow
   # :nodoc:
   NANOSECONDS_PER_MILLISECOND = 1_000_000_i64
 

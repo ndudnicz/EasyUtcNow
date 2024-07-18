@@ -1,12 +1,12 @@
-name: crtimestamp
-version: 0.2.0
+name: EasyUtcNow
+version: 1.0.0
 
-crystal: 0.34.0
+crystal: 1.13.1
 
 authors:
   - ndudnicz <ndudnicz@protonmail.com>
 
 description: |
-  Faster way to get a timestamp than calling standard Time lib
+  Faster way to get an utc timestamp than calling standard Time lib
 
 license: MIT

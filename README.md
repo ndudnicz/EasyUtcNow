@@ -42,17 +42,17 @@ Float64
 ### Benchmark :
 ```shell
 $> crystal -v
-Crystal 0.34.0 [4401e90f0] (2020-04-06)
+Crystal 1.13.1 (2024-07-12)
 
-LLVM: 8.0.0
-Default target: x86_64-unknown-linux-gnu
+LLVM: 18.1.8
+Default target: aarch64-apple-darwin23.5.0
 $> cd bench
 $> crystal build --release bench.cr
 $> ./bench
-             Time.utc.to_unix  31.26M ( 31.99ns) (± 0.60%)  0.0B/op   1.20× slower
-  Crtimestamp.now_utc_to_unix  37.40M ( 26.74ns) (± 0.09%)  0.0B/op        fastest
-          Time.utc.to_unix_ms  27.65M ( 36.17ns) (± 0.71%)  0.0B/op   1.35× slower
-Crimestamp.now_utc_to_unix_ms  37.40M ( 26.73ns) (± 0.08%)  0.0B/op        fastest
-           Time.utc.to_unix_f  31.31M ( 31.94ns) (± 0.73%)  0.0B/op   1.21× slower
-Crtimestamp.now_utc_to_unix_f  37.75M ( 26.49ns) (± 0.48%)  0.0B/op        fastest
+             Time.utc.to_unix  71.93M ( 13.90ns) (± 1.53%)  0.0B/op   1.15× slower
+   EasyUtcNow.now_utc_to_unix  82.46M ( 12.13ns) (± 3.96%)  0.0B/op        fastest
+          Time.utc.to_unix_ms  58.34M ( 17.14ns) (± 2.67%)  0.0B/op   1.41× slower
+EasyUtcNow.now_utc_to_unix_ms  82.19M ( 12.17ns) (± 1.26%)  0.0B/op        fastest
+           Time.utc.to_unix_f  72.33M ( 13.83ns) (± 1.05%)  0.0B/op   1.15× slower
+ EasyUtcNow.now_utc_to_unix_f  83.02M ( 12.05ns) (± 1.16%)  0.0B/op        fastest
 ```

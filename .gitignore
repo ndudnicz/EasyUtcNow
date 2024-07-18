@@ -4,3 +4,4 @@ main
 shard.lock
 lib/*
 run.sh
+bench/bench
