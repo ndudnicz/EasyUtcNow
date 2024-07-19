@@ -1,5 +1,5 @@
 require "benchmark"
-require "../src/EasyUtcNow"
+require "../src/easy_utc_now"
 
 Benchmark.ips do |x|
   x.report("Time.utc.to_unix") { Time.utc.to_unix }
